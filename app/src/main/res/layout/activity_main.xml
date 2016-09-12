@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.tugas01.xirpl5021.registrasilomba.MainActivity">
+        //Logo HUT RI 71
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:padding="23dp"
+            android:src="@drawable/hut_ri" />
+        //Title
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Pendaftaran Lomba 17 Agustus 2016"
+            android:textAlignment="center" />
+        //Nama Lengkap
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            //Nama Depan
+            <EditText
+                android:id="@+id/editTextDepan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Depan" />
+            //Nama Belakang
+            <EditText
+                android:id="@+id/editTextBlkng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Belakang" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        //Jenis Kelamin
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            //Laki
+            <RadioButton
+                android:id="@+id/radioButtonLK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Laki Laki" />
+            //Perempuan
+            <RadioButton
+                android:id="@+id/radioButtonPR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Perempuan" />
+        </RadioGroup>
+        //Umur
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umur"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        //Umur
+        <Spinner
+            android:id="@+id/spinnerUmur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/umur" />
+        //Lomba yang ingin diikuti
+        <TextView
+            android:id="@+id/textViewLM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lomba Yang Ingin Diikuti (0/6)"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.19"
+            android:orientation="horizontal">
+            //Lomba yang ingin diikuti
+            <CheckBox
+                android:id="@+id/checkBoxPP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Panjat Pinang" />
+            //Balap Karung
+            <CheckBox
+                android:id="@+id/checkBoxBK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Balap Karung" />
+            //Voli
+            <CheckBox
+                android:id="@+id/checkBoxV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Voli" />
+
+        </LinearLayout>
+        //Lomba yang ingin diikuti
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            //Futsal Sarung
+            <CheckBox
+                android:id="@+id/checkBoxFS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:paddingRight="2dp"
+                android:text="Futsal Sarung" />
+            //Catur
+            <CheckBox
+                android:id="@+id/checkBoxC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:paddingRight="8dp"
+                android:text="Catur" />
+            //Makan Kerupuk
+            <CheckBox
+                android:id="@+id/checkBoxMK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Makan Kerupuk" />
+        </LinearLayout>
+        //Kumpulkan
+
+        <Button
+            android:id="@+id/buttonOK"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/buattombol"
+            android:text="Kumpulkan"
+            android:textColor="@android:color/white" />
+        //Hasil Nama
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        //Hasil Jenis Kelamin
+        <TextView
+            android:id="@+id/textViewHasil2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="7dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:text="Small Text" />
+        //Hasil Umur
+
+        <TextView
+            android:id="@+id/textViewHasil3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="7dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:text="Small Text" />
+        //Hasil Lomba
+
+        <TextView
+            android:id="@+id/textViewHasil4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="7dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:text="Small Text" />
+
+    </LinearLayout>
+</ScrollView>

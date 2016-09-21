@@ -15,8 +15,4 @@ Screenshot :
 ![ss1 (2)](https://github.com/rehanarroihan/RegistrasiLomba/blob/master/ss1%20(2).png)
 ![ss1 (3)](https://github.com/rehanarroihan/RegistrasiLomba/blob/master/ss1%20(3).png)
 
-
 Link APK : https://drive.google.com/open?id=0B3RcCaJw7Av8SWduYklNcHZSYWc
-Link Screenshot : 
-https://drive.google.com/open?id=0B3RcCaJw7Av8b20xYS1TR3ZsdXc
-https://drive.google.com/open?id=0B3RcCaJw7Av8WVRhY01idmhram8

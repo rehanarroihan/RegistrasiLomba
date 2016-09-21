@@ -10,6 +10,12 @@ kelamin dengan radio button. Lalu ada pilihan umur yang saya tampilkan dengan sp
 lomba yang ingin diikuti yang diteruskan dengan sebuah tombol submit. Hasil akan ditampilkan di bagian bawah dengan 
 4 buah textview.
 
+Screenshot :
+![ss1](https://github.com/rehanarroihan/RegistrasiLomba/blob/master/ss1.png)
+![ss1 (2)](https://github.com/rehanarroihan/RegistrasiLomba/blob/master/ss1%20(2).png)
+![ss1 (3)](https://github.com/rehanarroihan/RegistrasiLomba/blob/master/ss1%20(3).png)
+
+
 Link APK : https://drive.google.com/open?id=0B3RcCaJw7Av8SWduYklNcHZSYWc
 Link Screenshot : 
 https://drive.google.com/open?id=0B3RcCaJw7Av8b20xYS1TR3ZsdXc
